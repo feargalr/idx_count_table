@@ -6,9 +6,10 @@ This is primarily for a case where the reference aligned to is multiple differen
 ## Usage
 To download and use a pre-built version
 
-'''bash
+```bash
+
 git clone https://github.com/feargalr/idx_count_table.git
 
 ## Execute in a directory with samtools idxstats outcome
 pathtorepo/bin/idx_count_table
-'''
+```
