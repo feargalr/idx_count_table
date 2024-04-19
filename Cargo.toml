@@ -3,8 +3,12 @@ name = "idx_count_table"
 version = "0.1.0"
 edition = "2021"
 
+[profile.release]
+debug = true  # Adds debug information even in release mode. This was required to compile serde v1.0.198 which is a dependency of csv
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 glob = "0.3.0"
 csv = "1.1"
+serde = "1.0.198"
