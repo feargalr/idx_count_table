@@ -11,5 +11,7 @@ To download and use a pre-built version
 git clone https://github.com/feargalr/idx_count_table.git
 
 ## Execute in a directory with samtools idxstats outcome
-pathtorepo/bin/idx_count_table
+pathtorepo/bin/idx_count_table_linux_x86_64 #Linux
+pathtorepo/bin/idx_count_table_osx_arm64 #Mac
+
 ```
